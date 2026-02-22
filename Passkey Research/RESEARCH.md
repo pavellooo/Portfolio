@@ -16,6 +16,8 @@ The repository for this project may found on my GitHub profile, and is automatic
 Next, I took all of the challenges and solutions I encountered and organized them into a 6-page paper following IEEE guidelines. The paper was officially submitted on Feb. 15, 2026.
 The deadline was extended, and we saw lots of room for improvement. We are currently in a revision phase, and will soon be submitting a more polished version in the upcoming weeks.
 
+It is also worth noting that everything so far has been done completely for free using a student GitHub account, and we do not plan to spend any of our budget money for the rest of the semester. The goal is to implementation security and report on it to fellow students and developers, and the solutions should not be locked behind payment methods of any kind if possible. This way, anybody can recreate our steps very easily.
+
 # What is planned next?
 So far, this project only covers one class of web applications: client-side rendered (specifically with React). 
 After finalizing and submitting this paper, we plan to find an open source server-side rendered web application and perform a similar process on that. 
