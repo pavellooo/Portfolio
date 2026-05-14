@@ -1,0 +1,12 @@
+{
+  "name": "messaging-app-system-root",
+  "version": "1.0.0",
+  "description": "Orchestrator for KDC and Messaging App",
+  "scripts": {
+    "install-all": "npm install && npm install --prefix KDCSimulation && npm install --prefix cs4310messagingapp && npm install --prefix cs4310messagingapp/client && npm install --prefix cs4310messagingapp/server",
+    "dev": "concurrently -n \"KDC,APP\" -c \"magenta,cyan\" \"npm run dev --prefix KDCSimulation\" \"npm run dev --prefix cs4310messagingapp\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

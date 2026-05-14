@@ -1,0 +1,23 @@
+{
+  "name": "messaging-app",
+  "version": "1.0.0",
+  "description": "A secure messaging web application built with React, Node.js, and Express",
+  "private": true,
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm start --prefix client\" \"npm run dev --prefix server\"",
+    "build": "npm run build --prefix client",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "install-all": "npm install && npm install --prefix client && npm install --prefix server",
+    "heroku-postbuild": "npm install --prefix server && npm install --prefix client && npm run build --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.3"
+  }
+}
